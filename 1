@@ -1,0 +1,14 @@
+angular.module("MusicPlayer")
+	.controller('soundCtrl',['$scope', function($scope){		
+		
+		var mySound = new buzz.sound("app/assets/sounds/middle_c.wav", {
+			preload: true
+		});
+
+		$scope.playC = function(){
+			console.log("hi");
+			console.log(mySound);
+			mySound.play();
+		};
+
+	}]);

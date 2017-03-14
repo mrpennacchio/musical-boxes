@@ -1,0 +1,59 @@
+.header, .box-container, html{
+	background-color: black;
+}
+.header{
+	color: white;
+	padding: 5px;
+	padding-left: 2%;
+}
+
+.box-container {
+	margin-top: 0px;
+	background: red;
+}
+
+.player-box {
+ 	border: 1px solid black;
+ 	display: inline-block;
+ 	height: 200px;
+ 	width: 12.22%;
+ 	text-align: center;
+	color: white;
+}
+
+.player-box:hover{
+	opacity: 0.8;
+}
+
+.notes{
+	font-size: 25px;
+	margin-top: 50%;	
+}
+
+.one, .eight {
+	border: 2px solid #E25041;
+}
+
+.two {
+	border: 2px solid #F7DA64;;
+}
+
+.three {
+	border: 2px solid #54ACD2;
+}
+
+.four {
+	border: 2px solid #9365B8;
+}
+
+.five {
+	border: 2px solid #EFEFEF;
+}
+
+.six {
+	border: 2px solid #2ECC71;
+}
+
+.seven {
+	border: 2px solid #59ABE3;
+}
