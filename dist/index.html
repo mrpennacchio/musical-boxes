@@ -11,10 +11,10 @@
 <body>
 
   <div ng-include src="'/templates/header.html'"></div>
-	<div ng-include src="'/templates/player_boxes.html'"></div>
-
-
-
+	<div ng-controller="soundCtrl">
+		<div ng-include src="'/templates/player_boxes.html'"></div>
+		<div ng-include src="'/templates/notes_pressed_display.html'"></div>
+	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
 	<script src="/scripts/app.js"></script>
 	<script src="/scripts/controllers/soundCtrl.js"></script>

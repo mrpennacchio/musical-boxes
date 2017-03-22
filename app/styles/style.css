@@ -1,28 +1,41 @@
-.header, .box-container, html{
+.header, .box-container, html, body{
 	background-color: black;
 }
+
 .header{
 	color: white;
 	padding: 5px;
 	padding-left: 2%;
+	padding-bottom: 60px;
 }
 
 .box-container {
-	margin-top: 0px;
-	background: red;
+	background-color: black;
+	margin-top: -20px;
+}
+
+.box {
+	background-color: black;
+	margin-top: 20px;
 }
 
 .player-box {
  	border: 1px solid black;
  	display: inline-block;
  	height: 200px;
- 	width: 12.22%;
+ 	width: 11%;
  	text-align: center;
 	color: white;
+	margin-left: 0.5%;
 }
 
 .player-box:hover{
 	opacity: 0.8;
+}
+
+.box{
+	margin-top: 0px;
+	margin-left: 2%;
 }
 
 .notes{
@@ -55,5 +68,44 @@
 }
 
 .seven {
-	border: 2px solid #59ABE3;
+	border: 2px solid #E1B493; 
+}
+
+.notes-clicked {
+	background-color: black;
+	color: white;
+	clear: left;
+	padding-top: 30px;
+	margin-bottom: 0px;
+}
+
+.note-display-container {
+	text-align: center;
+	background-color: black;
+}
+
+
+.note-array {
+	color: white;
+	background-color: black;
+	display: inline-block
+	width: 100%;
+	margin: 10px;
+}
+
+.reset-btn {
+	border: 2px solid #C91F37;
+	color: white;
+	background-color: black;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+
+.play-btn {
+	border: 2px solid green;
+	color: white;
+	background-color: black;
+	border-radius: 10px;
+	padding: 10px 20px;
+	
 }

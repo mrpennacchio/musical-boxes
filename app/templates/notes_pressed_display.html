@@ -1,0 +1,7 @@
+<div class="note-display-container">
+	<h1 ng-show="isClicked" class="notes-clicked">{{ note }}</h1>
+
+	<p class="note-array"> {{ notePressedList.join(' ')}} </p>
+		<button ng-show="isClicked" class="play-btn" type="button" ng-click="playnoteList(noteList)">Play</button>
+		<button ng-show="isClicked" class="reset-btn" type="button" ng-click="resetnoteList(noteList)">Reset</button>
+</div>
